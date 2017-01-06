@@ -1,0 +1,51 @@
+.order-btn{
+	width : 156px;
+	margin-top: 20px; 
+	margin-left: 30px;
+}
+.cart-image-width{
+	width:80px;
+}
+.rowmapping{
+	margin-bottom: 20px;
+}
+
+.rowmargntop{
+	margin-top: 20px;
+}
+
+h5.delivered{
+	color:#78c92c
+}
+
+.product-heading h5{
+	font-family:dinnextproregular;
+	margin:0;
+	font-size:14px;
+	line-height:20px;
+}
+
+.order-image-width{
+	width:120px;
+}
+
+.final-detials-heading {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.price-details {
+    font-size: 14px;
+    list-style-type: none;
+    margin: 17px 0 0;
+    padding: 0;
+}
+.price-details .amount {
+    float: right;
+}
+.final-detials-heading span:first-child{
+	 float: right;
+}
+.shipping-address-block,.payment-mode-block {
+    font-size: 16px;
+}

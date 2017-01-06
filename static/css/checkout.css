@@ -1,0 +1,98 @@
+.cart-image-width{
+	width:70px;
+}
+
+#page-content #order-summary table {
+  margin-top: 20px;
+}
+#page-content #order-summary table td {
+  color: #999999;
+}
+#page-content #order-summary table tr.total td,
+#page-content #order-summary table tr.total th {
+  font-size: 18px;
+  color: #555555;
+  font-weight: 700;
+} 
+
+#page-content #checkout-review .table tbody tr td,
+#page-content #basket .table tbody tr td {
+  vertical-align: middle;
+  
+}
+
+#page-content #checkout-review .table tbody tr td input,
+#page-content #basket .table tbody tr td input {
+  width: 50px;
+  text-align: right;
+}
+
+#page-content #checkout-review .table tfoot,
+#page-content #basket .table tfoot {
+  font-size: 18px;
+}
+
+.page-box-footer {
+  background: #f7f7f7;
+  margin: 30px -20px -20px;
+  padding: 20px;
+  border-top: solid 1px #eeeeee;
+}
+
+#checkout .nav {
+  margin-bottom: 20px;
+  border-bottom: solid 1px #000000;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.addressbtn{
+margin-left: 40px;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#cartSectionThrobber{
+	height: 235px;
+	background-image: url("../img/ajax-loader.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#securedPayThrobber{
+	height: 445px;
+	background-image: url("../img/ajax-loader.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.addressBox > h4{
+	font-weight: bold;
+}
+.selectAddress{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.selectAddress .page-box-footer{
+	background-color: #EAEAEA;
+}
+
+#newAddressThrobber, #addressThrobber{
+	height: 300px;
+	background-image: url("../img/ajax-loader.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+}

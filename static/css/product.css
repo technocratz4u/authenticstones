@@ -1,0 +1,34 @@
+
+#goTo {
+	color: #989898;
+}
+
+#goTo:hover{
+	color: #000;
+}
+
+#info {
+	background-color: #989898;
+	color: #fff;
+}
+
+.buy-from-us-img {
+	max-height: 50px;
+}
+
+#product-quantity {
+	max-width: 60px;
+	margin-right: 2%;
+}
+
+#thumbs a {
+  display: block;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  border: solid 2px transparent;
+  margin-bottom: 10%;
+}
+
+#thumbs a.active {
+  border-color: #989898;
+}

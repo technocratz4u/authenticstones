@@ -1,0 +1,253 @@
+/**
+ Owl carousel styling start
+**/
+#owl-demo .item img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#bar {
+	width: 0%;
+	max-width: 100%;
+	height: 4px;
+	background: #222222;
+}
+
+#progressBar {
+	width: 100%;
+	background: #EDEDED;
+}
+/**
+ Owl carousel styling end
+**/
+
+#homeCarousel .owl-wrapper-outer{
+	height:480px;
+}
+
+#home-product-row{
+	margin-top: 40px;
+	text-align: center;
+}
+
+#home-product-row > div{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #FFFFFF;
+    
+    background-image: -ms-linear-gradient(top, #EFEFEF 0%, #F0F0F0 100%);  /* IE10 */ 
+	background-image: -moz-linear-gradient(top, #EFEFEF 0%, #F0F0F0 100%); /* Mozilla Firefox */ 
+	background-image: -o-linear-gradient(top, #EFEFEF 0%, #F0F0F0 100%); /* Opera */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#EFEFEF), to(#F0F0F0)); /* Webkit (Safari/Chrome 10) */ 
+	/* background-image: -webkit-linear-gradient(left top, ##EFEFEF 0%, #F0F0F0 100%); */ /* Webkit (Chrome 11+) */ 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EFEFEF', endColorstr='#F0F0F0'); /* for IE */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#EFEFEF, endColorstr=#F0F0F0)";
+	background-image: linear-gradient(top, #EFEFEF 0%, #F0F0F0 100%); /* Proposed W3C Markup */
+	
+	background-repeat:no-repeat;
+}
+
+#home-product-row .product-img{
+	margin-bottom: 25px;
+	border-radius: 32px;
+}
+
+#home-product-row a.product-title{
+	padding-top: 37px;
+	line-height: 24px;
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	background-image: url("../img/home_category_title_decor.png");
+	
+	display: block;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #222222;
+
+}
+
+#home-product-row a.product-title:hover{
+	color: #000000;
+	font-weight: bold;
+}
+#home-product-row p.product-description{
+	padding: 15px;
+}
+
+#buy-from-us-title, #hot-this-week-title, #our-partners-title{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	font-size: 40px;
+	text-align: center;
+}
+
+#buy-from-us-title a, #hot-this-week-title a{
+	color: #000000;
+}
+
+
+#buy-from-us-body, #hot-this-week-body, #our-partners-body{
+	padding-bottom: 20px;
+}
+
+.buy-from-us-list{
+	padding: 30px 10px;
+}
+
+.buy-from-us-list > ul > li{
+	line-height: 30px;	
+} 
+
+#buy-from-us-banner{
+	padding-top: 1px;
+	padding-bottom: 29px;
+	text-align: center;
+	background-image: url("../img/home_buy_from_us_decor.png");
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+}
+
+#buy-from-us-img{
+	border-radius: 50%;
+	margin: 0px auto;
+}
+
+#buy-from-us-read-more{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#hot-this-week-carousel .item{
+    padding: 20px 10px;
+    margin: 10px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    border: 2px solid #CCC;
+    
+    background-image: -ms-linear-gradient(top, #EFEFEF 0%, #F8F8F8 100%);  /* IE10 */ 
+	background-image: -moz-linear-gradient(top, #EFEFEF 0%, #F8F8F8 100%); /* Mozilla Firefox */ 
+	background-image: -o-linear-gradient(top, #EFEFEF 0%, #F8F8F8 100%); /* Opera */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#EFEFEF), to(#F8F8F8)); /* Webkit (Safari/Chrome 10) */ 
+	/* background-image: -webkit-linear-gradient(left top, ##EFEFEF 0%, #F8F8F8 100%); */ /* Webkit (Chrome 11+) */ 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EFEFEF', endColorstr='#F8F8F8'); /* for IE */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#EFEFEF, endColorstr=#F8F8F8)";
+	background-image: linear-gradient(top, #EFEFEF 0%, #F8F8F8 100%); /* Proposed W3C Markup */
+}
+
+#hot-this-week-carousel .product{
+	box-sizing: border-box;
+	color: #555;
+}
+
+#hot-this-week-carousel .item img{
+	border-radius: 5px;
+	border: 1px solid #CCCCCC;	
+}	
+#hot-this-week-carousel .product .text{
+	padding: 10px 10px 0px;
+}
+
+#hot-this-week-carousel .product .text h3{
+	font-size: 18px;
+	height: 42px;
+	text-align: center;
+	overflow: hidden;
+}
+
+#hot-this-week-carousel .product .text h3 a{
+	color: #555;
+}
+
+#hot-this-week-carousel .product .text h3 a:hover{
+	color: #000;
+}
+
+#hot-this-week-carousel .product .text p.price{
+	font-size: 18px;
+	text-align: center;
+	font-weight: 300;
+	display: inline-block;
+}
+#hot-this-week-carousel .product .text del{
+	color: #999;
+	display: inline-block;
+	padding-right: 10px;
+	font-size: 18px;
+}
+
+#home-page-testimonial{
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	background-image: url("../img/testimonial_bg.jpg");
+}
+
+#home-page-testimonial-title{
+	padding-top: 115px;
+	margin: 0px;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #3D3D3D;
+	font-weight: 400;
+}
+
+#home-page-testimonial-body{
+	padding: 35px 20px 75px;
+}
+
+.home-page-testimonial-text{
+	font-size: 14px;
+	line-height: 24px;
+	font-style: italic;	
+	color: #8B8B8B;
+	max-height: 144px;
+	overflow: hidden;
+}
+
+.home-page-testimonial-author{
+	padding-top: 17px;
+	padding-left: 0px;
+	font-size: 18px;
+	font-style: italic;
+	color: #191919;
+}
+
+.home-page-testimonial-author .place{
+	font-size: 14px;
+	line-height: 24px;
+	font-style: italic;	
+	color: #8B8B8B;
+}
+
+#our-partners-body h4{
+	color: #000000;
+	text-align: center;
+}
+
+#our-partners-body img{
+	margin: 0px auto;	
+}
+
+#track-order{
+	text-align: center;	
+}
+
+#track-order a{
+	margin-top: 15px;
+}
+@media only screen and (max-width: 979px) {
+	
+}
+
+@media only screen and (max-width: 767px) {
+	#home-page-testimonial{
+		background-image: none;
+    	background-color: #e6e6e6;
+	}
+	
+}
+
